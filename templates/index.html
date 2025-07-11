@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Excel Cleaner</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; }
+    form { margin-top: 2rem; }
+    input[type="text"], input[type="file"] {
+      padding: 0.5rem; margin: 1rem 0; width: 100%;
+    }
+    button {
+      padding: 0.7rem 1.5rem;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧹 Clean HTML in Excel Column</h1>
+  <form action="/" method="POST" enctype="multipart/form-data">
+    <label>📂 Upload Excel File:</label><br>
+    <input type="file" name="excel_file" accept=".xlsx" required><br>
+
+    <label>🔤 Column Name (e.g., holo.lists):</label><br>
+    <input type="text" name="column_name" required><br>
+
+    <button type="submit">Clean & Download</button>
+  </form>
+</body>
+</html>
