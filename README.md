@@ -54,6 +54,6 @@ python app.py
 ## How It Works
 - Upload a .xlsx file.
 - Enter the column name that contains HTML (e.g., holo.lists).
-- The app keeps only <ul> and <ol> blocks (and anything inside them like <li>, <a>).
+- The app keeps only `<ul>` and `<ol>` blocks (and anything inside them like `<li>`, `<a>`).
 - Everything else is removed.
 - The cleaned file is automatically generated and available for download.
