@@ -24,18 +24,18 @@ This is a simple Flask-based web app that lets you:
 ### 1. Clone or Download This Repo
 
 ```
-git clone https://github.com/your-username/excel-html-cleaner.git
-cd excel-html-cleaner
+git clone https://github.com/MdZillurRahman/excel_html_cleaner
+cd excel_html_cleaner
 ```
 
 ### 2. Create Virtual Environment (Optional but Recommended)
-# On Mac/Linux:
+## On Mac/Linux:
 ```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-# On Windows:
+## On Windows:
 ```
 python -m venv .venv
 .venv\Scripts\activate
