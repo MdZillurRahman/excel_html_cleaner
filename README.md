@@ -3,7 +3,7 @@
 This is a simple Flask-based web app that lets you:
 
 - Upload an Excel file (`.xlsx`)
-- Specify a column (e.g., `holo.lists`)
+- Specify a column
 - Automatically clean that column by:
   - Keeping only `<ul>` and `<ol>` blocks (and their inner content like `<li>`, `<a>`)
   - Removing everything else
@@ -53,7 +53,7 @@ python app.py
 
 ## How It Works
 - Upload a .xlsx file.
-- Enter the column name that contains HTML (e.g., holo.lists).
+- Enter the column name that contains HTML.
 - The app keeps only `<ul>` and `<ol>` blocks (and anything inside them like `<li>`, `<a>`).
 - Everything else is removed.
 - The cleaned file is automatically generated and available for download.
